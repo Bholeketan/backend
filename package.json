@@ -1,0 +1,26 @@
+{
+  "name": "nodebackend",
+  "version": "1.0.0",
+  "description": "a tutorial for intro to  backend",
+  "license": "ISC",
+  "author": "Ketan",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Bholeketan/backend.git"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
